@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PaqC01.DiseñoContenedores">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="13" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1458" height="453"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="622b9" class="javax.swing.JLabel" binding="NumId">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="87" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Número de identificación"/>
+        </properties>
+      </component>
+      <component id="79fb5" class="javax.swing.JTextField" binding="NumIdtext">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b6a3d" class="javax.swing.JLabel" binding="Peso">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="87" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Peso (toneladas)"/>
+        </properties>
+      </component>
+      <component id="68e9b" class="javax.swing.JTextField" binding="Pesotext">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8fed8" class="javax.swing.JLabel" binding="Desc">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="87" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Descripción del contenido"/>
+        </properties>
+      </component>
+      <component id="3ee36" class="javax.swing.JTextArea" binding="Desctext">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4483" class="javax.swing.JLabel" binding="Emp_rem">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="87" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Empresa remitente"/>
+        </properties>
+      </component>
+      <component id="d3049" class="javax.swing.JLabel" binding="Emp_rec">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="87" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Empresa receptora"/>
+        </properties>
+      </component>
+      <component id="6e692" class="javax.swing.JTextField" binding="Emp_rectext">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ed496" class="javax.swing.JLabel" binding="Pais_proc">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="País de procedencia"/>
+        </properties>
+      </component>
+      <component id="270a5" class="javax.swing.JLabel" binding="Prior">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Prioridad"/>
+        </properties>
+      </component>
+      <component id="71a0d" class="javax.swing.JCheckBox" binding="Insp_Aduanas">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inspeccionado en aduanas"/>
+        </properties>
+      </component>
+      <component id="6871b" class="javax.swing.JTextField" binding="Emp_remtext">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3b606" class="javax.swing.JComboBox" binding="Pais_procbox">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Afganistán"/>
+            <item value="Albania"/>
+            <item value="Alemania"/>
+            <item value="Andorra"/>
+            <item value="Angola"/>
+            <item value="Antigua y Barbuda"/>
+            <item value="Arabia Saudita"/>
+            <item value="Argelia"/>
+            <item value="Argentina"/>
+            <item value="Armenia"/>
+            <item value="Australia"/>
+            <item value="Austria"/>
+            <item value="Azerbaiyán"/>
+            <item value="Bahamas"/>
+            <item value="Bangladés"/>
+            <item value="Barbados"/>
+            <item value="Baréin"/>
+            <item value="Bélgica"/>
+            <item value="Belice"/>
+            <item value="Benín"/>
+            <item value="Bielorrusia"/>
+            <item value="Birmania"/>
+            <item value="Bolivia"/>
+            <item value="Bosnia y Herzegovina"/>
+            <item value="Botsuana"/>
+            <item value="Brasil"/>
+            <item value="Brunéi"/>
+            <item value="Bulgaria"/>
+            <item value="Burkina Faso"/>
+            <item value="Burundi"/>
+            <item value="Bután"/>
+            <item value="Cabo Verde"/>
+            <item value="Camboya"/>
+            <item value="Camerún"/>
+            <item value="Canadá"/>
+            <item value="Catar"/>
+            <item value="Chad"/>
+            <item value="Chile"/>
+            <item value="China"/>
+            <item value="Chipre"/>
+            <item value="Ciudad del Vaticano"/>
+            <item value="Colombia"/>
+            <item value="Comoras"/>
+            <item value="Corea del Norte"/>
+            <item value="Corea del Sur"/>
+            <item value="Costa de Marfil"/>
+            <item value="Costa Rica"/>
+            <item value="Croacia"/>
+            <item value="Cuba"/>
+            <item value="Dinamarca"/>
+            <item value="Dominica"/>
+            <item value="Ecuador"/>
+            <item value="Egipto"/>
+            <item value="El Salvador"/>
+            <item value="Emiratos Árabes Unidos"/>
+            <item value="Eritrea"/>
+            <item value="Eslovaquia"/>
+            <item value="Eslovenia"/>
+            <item value="España"/>
+            <item value="Estados Unidos"/>
+            <item value="Estonia"/>
+            <item value="Etiopía"/>
+            <item value="Filipinas"/>
+            <item value="Finlandia"/>
+            <item value="Fiyi"/>
+            <item value="Francia"/>
+            <item value="Gabón"/>
+            <item value="Gambia"/>
+            <item value="Georgia"/>
+            <item value="Ghana"/>
+            <item value="Granada"/>
+            <item value="Grecia"/>
+            <item value="Guatemala"/>
+            <item value="Guyana"/>
+            <item value="Guinea"/>
+            <item value="Guinea ecuatorial"/>
+            <item value="Guinea-Bisáu"/>
+            <item value="Haití"/>
+            <item value="Honduras"/>
+            <item value="Hungría"/>
+            <item value="India"/>
+            <item value="Indonesia"/>
+            <item value="Irak"/>
+            <item value="Irán"/>
+            <item value="Irlanda"/>
+            <item value="Islandia"/>
+            <item value="Islas Marshall"/>
+            <item value="Islas Salomón"/>
+            <item value="Israel"/>
+            <item value="Italia"/>
+            <item value="Jamaica"/>
+            <item value="Japón"/>
+            <item value="Jordania"/>
+            <item value="Kazajistán"/>
+            <item value="Kenia"/>
+            <item value="Kirguistán"/>
+            <item value="Kiribati"/>
+            <item value="Kuwait"/>
+            <item value="Laos"/>
+            <item value="Lesoto"/>
+            <item value="Letonia"/>
+            <item value="Líbano"/>
+            <item value="Liberia"/>
+            <item value="Libia"/>
+            <item value="Liechtenstein"/>
+            <item value="Lituania"/>
+            <item value="Luxemburgo"/>
+            <item value="Macedonia del Norte"/>
+            <item value="Madagascar"/>
+            <item value="Malasia"/>
+            <item value="Malaui"/>
+            <item value="Maldivas"/>
+            <item value="Malí"/>
+            <item value="Malta"/>
+            <item value="Marruecos"/>
+            <item value="Mauricio"/>
+            <item value="Mauritania"/>
+            <item value="México"/>
+            <item value="Micronesia"/>
+            <item value="Moldavia"/>
+            <item value="Mónaco"/>
+            <item value="Mongolia"/>
+            <item value="Montenegro"/>
+            <item value="Mozambique"/>
+            <item value="Namibia"/>
+            <item value="Nauru"/>
+            <item value="Nepal"/>
+            <item value="Nicaragua"/>
+            <item value="Níger"/>
+            <item value="Nigeria"/>
+            <item value="Noruega"/>
+            <item value="Nueva Zelanda"/>
+            <item value="Omán"/>
+            <item value="Países Bajos"/>
+            <item value="Pakistán"/>
+            <item value="Palaos"/>
+            <item value="Panamá"/>
+            <item value="Papúa Nueva Guinea"/>
+            <item value="Paraguay"/>
+            <item value="Perú"/>
+            <item value="Polonia"/>
+            <item value="Portugal"/>
+            <item value="Reino Unido"/>
+            <item value="República Centroafricana"/>
+            <item value="República Checa"/>
+            <item value="República del Congo"/>
+            <item value="República Democrática del Congo"/>
+            <item value="República Dominicana"/>
+            <item value="Ruanda"/>
+            <item value="Rumanía"/>
+            <item value="Rusia"/>
+            <item value="Samoa"/>
+            <item value="San Cristóbal y Nieves"/>
+            <item value="San Marino"/>
+            <item value="San Vicente y las Granadinas"/>
+            <item value="Santa Lucía"/>
+            <item value="Santo Tomé y Príncipe"/>
+            <item value="Senegal"/>
+            <item value="Serbia"/>
+            <item value="Seychelles"/>
+            <item value="Sierra Leona"/>
+            <item value="Singapur"/>
+            <item value="Siria"/>
+            <item value="Somalia"/>
+            <item value="Sri Lanka"/>
+            <item value="Suazilandia"/>
+            <item value="Sudáfrica"/>
+            <item value="Sudán"/>
+            <item value="Sudán del Sur"/>
+            <item value="Suecia"/>
+            <item value="Suiza"/>
+            <item value="Surinam"/>
+            <item value="Tailandia"/>
+            <item value="Tanzania"/>
+            <item value="Tayikistán"/>
+            <item value="Timor Oriental"/>
+            <item value="Togo"/>
+            <item value="Tonga"/>
+            <item value="Trinidad y Tobago"/>
+            <item value="Túnez"/>
+            <item value="Turkmenistán"/>
+            <item value="Turquía"/>
+            <item value="Tuvalu"/>
+            <item value="Ucrania"/>
+            <item value="Uganda"/>
+            <item value="Uruguay"/>
+            <item value="Uzbekistán"/>
+            <item value="Vanuatu"/>
+            <item value="Venezuela"/>
+            <item value="Vietnam"/>
+            <item value="Yemen"/>
+            <item value="Yibuti"/>
+            <item value="Zambia"/>
+            <item value="Zimbabue"/>
+          </model>
+        </properties>
+      </component>
+      <component id="abab1" class="javax.swing.JRadioButton" binding="a1RadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="68beb" class="javax.swing.JRadioButton" binding="a2RadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="9e8a0" class="javax.swing.JRadioButton" binding="a3RadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="80806" class="javax.swing.JLabel" binding="Ops">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="18"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Black"/>
+          <text value="Operaciones"/>
+        </properties>
+      </component>
+      <grid id="d9d27" binding="auxPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="1" row-span="5" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="395" height="141"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <component id="27fb2" class="javax.swing.JButton" binding="Ap_button">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Apilar"/>
+            </properties>
+          </component>
+          <hspacer id="7c74f">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="3c9f6" class="javax.swing.JButton" binding="Desap_button">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Desapilar"/>
+            </properties>
+          </component>
+          <component id="c9051" class="javax.swing.JTextField" binding="numCol_text">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Número de columna"/>
+            </properties>
+          </component>
+          <component id="911e5" class="javax.swing.JButton" binding="ContData_button">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Mostrar datos contenedor"/>
+            </properties>
+          </component>
+          <component id="99192" class="javax.swing.JTextField" binding="ID_text">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="ID. Contenedor"/>
+            </properties>
+          </component>
+          <component id="59172" class="javax.swing.JButton" binding="Cuantos_button">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="¿Cuántos?"/>
+            </properties>
+          </component>
+          <component id="d4618" class="javax.swing.JComboBox" binding="cuantosPais_box">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Afganistán"/>
+                <item value="Albania"/>
+                <item value="Alemania"/>
+                <item value="Andorra"/>
+                <item value="Angola"/>
+                <item value="Antigua y Barbuda"/>
+                <item value="Arabia Saudita"/>
+                <item value="Argelia"/>
+                <item value="Argentina"/>
+                <item value="Armenia"/>
+                <item value="Australia"/>
+                <item value="Austria"/>
+                <item value="Azerbaiyán"/>
+                <item value="Bahamas"/>
+                <item value="Bangladés"/>
+                <item value="Barbados"/>
+                <item value="Baréin"/>
+                <item value="Bélgica"/>
+                <item value="Belice"/>
+                <item value="Benín"/>
+                <item value="Bielorrusia"/>
+                <item value="Birmania"/>
+                <item value="Bolivia"/>
+                <item value="Bosnia y Herzegovina"/>
+                <item value="Botsuana"/>
+                <item value="Brasil"/>
+                <item value="Brunéi"/>
+                <item value="Bulgaria"/>
+                <item value="Burkina Faso"/>
+                <item value="Burundi"/>
+                <item value="Bután"/>
+                <item value="Cabo Verde"/>
+                <item value="Camboya"/>
+                <item value="Camerún"/>
+                <item value="Canadá"/>
+                <item value="Catar"/>
+                <item value="Chad"/>
+                <item value="Chile"/>
+                <item value="China"/>
+                <item value="Chipre"/>
+                <item value="Ciudad del Vaticano"/>
+                <item value="Colombia"/>
+                <item value="Comoras"/>
+                <item value="Corea del Norte"/>
+                <item value="Corea del Sur"/>
+                <item value="Costa de Marfil"/>
+                <item value="Costa Rica"/>
+                <item value="Croacia"/>
+                <item value="Cuba"/>
+                <item value="Dinamarca"/>
+                <item value="Dominica"/>
+                <item value="Ecuador"/>
+                <item value="Egipto"/>
+                <item value="El Salvador"/>
+                <item value="Emiratos Árabes Unidos"/>
+                <item value="Eritrea"/>
+                <item value="Eslovaquia"/>
+                <item value="Eslovenia"/>
+                <item value="España"/>
+                <item value="Estados Unidos"/>
+                <item value="Estonia"/>
+                <item value="Etiopía"/>
+                <item value="Filipinas"/>
+                <item value="Finlandia"/>
+                <item value="Fiyi"/>
+                <item value="Francia"/>
+                <item value="Gabón"/>
+                <item value="Gambia"/>
+                <item value="Georgia"/>
+                <item value="Ghana"/>
+                <item value="Granada"/>
+                <item value="Grecia"/>
+                <item value="Guatemala"/>
+                <item value="Guyana"/>
+                <item value="Guinea"/>
+                <item value="Guinea ecuatorial"/>
+                <item value="Guinea-Bisáu"/>
+                <item value="Haití"/>
+                <item value="Honduras"/>
+                <item value="Hungría"/>
+                <item value="India"/>
+                <item value="Indonesia"/>
+                <item value="Irak"/>
+                <item value="Irán"/>
+                <item value="Irlanda"/>
+                <item value="Islandia"/>
+                <item value="Islas Marshall"/>
+                <item value="Islas Salomón"/>
+                <item value="Israel"/>
+                <item value="Italia"/>
+                <item value="Jamaica"/>
+                <item value="Japón"/>
+                <item value="Jordania"/>
+                <item value="Kazajistán"/>
+                <item value="Kenia"/>
+                <item value="Kirguistán"/>
+                <item value="Kiribati"/>
+                <item value="Kuwait"/>
+                <item value="Laos"/>
+                <item value="Lesoto"/>
+                <item value="Letonia"/>
+                <item value="Líbano"/>
+                <item value="Liberia"/>
+                <item value="Libia"/>
+                <item value="Liechtenstein"/>
+                <item value="Lituania"/>
+                <item value="Luxemburgo"/>
+                <item value="Macedonia del Norte"/>
+                <item value="Madagascar"/>
+                <item value="Malasia"/>
+                <item value="Malaui"/>
+                <item value="Maldivas"/>
+                <item value="Malí"/>
+                <item value="Malta"/>
+                <item value="Marruecos"/>
+                <item value="Mauricio"/>
+                <item value="Mauritania"/>
+                <item value="México"/>
+                <item value="Micronesia"/>
+                <item value="Moldavia"/>
+                <item value="Mónaco"/>
+                <item value="Mongolia"/>
+                <item value="Montenegro"/>
+                <item value="Mozambique"/>
+                <item value="Namibia"/>
+                <item value="Nauru"/>
+                <item value="Nepal"/>
+                <item value="Nicaragua"/>
+                <item value="Níger"/>
+                <item value="Nigeria"/>
+                <item value="Noruega"/>
+                <item value="Nueva Zelanda"/>
+                <item value="Omán"/>
+                <item value="Países Bajos"/>
+                <item value="Pakistán"/>
+                <item value="Palaos"/>
+                <item value="Panamá"/>
+                <item value="Papúa Nueva Guinea"/>
+                <item value="Paraguay"/>
+                <item value="Perú"/>
+                <item value="Polonia"/>
+                <item value="Portugal"/>
+                <item value="Reino Unido"/>
+                <item value="República Centroafricana"/>
+                <item value="República Checa"/>
+                <item value="República del Congo"/>
+                <item value="República Democrática del Congo"/>
+                <item value="República Dominicana"/>
+                <item value="Ruanda"/>
+                <item value="Rumanía"/>
+                <item value="Rusia"/>
+                <item value="Samoa"/>
+                <item value="San Cristóbal y Nieves"/>
+                <item value="San Marino"/>
+                <item value="San Vicente y las Granadinas"/>
+                <item value="Santa Lucía"/>
+                <item value="Santo Tomé y Príncipe"/>
+                <item value="Senegal"/>
+                <item value="Serbia"/>
+                <item value="Seychelles"/>
+                <item value="Sierra Leona"/>
+                <item value="Singapur"/>
+                <item value="Siria"/>
+                <item value="Somalia"/>
+                <item value="Sri Lanka"/>
+                <item value="Suazilandia"/>
+                <item value="Sudáfrica"/>
+                <item value="Sudán"/>
+                <item value="Sudán del Sur"/>
+                <item value="Suecia"/>
+                <item value="Suiza"/>
+                <item value="Surinam"/>
+                <item value="Tailandia"/>
+                <item value="Tanzania"/>
+                <item value="Tayikistán"/>
+                <item value="Timor Oriental"/>
+                <item value="Togo"/>
+                <item value="Tonga"/>
+                <item value="Trinidad y Tobago"/>
+                <item value="Túnez"/>
+                <item value="Turkmenistán"/>
+                <item value="Turquía"/>
+                <item value="Tuvalu"/>
+                <item value="Ucrania"/>
+                <item value="Uganda"/>
+                <item value="Uruguay"/>
+                <item value="Uzbekistán"/>
+                <item value="Vanuatu"/>
+                <item value="Venezuela"/>
+                <item value="Vietnam"/>
+                <item value="Yemen"/>
+                <item value="Yibuti"/>
+                <item value="Zambia"/>
+                <item value="Zimbabue"/>
+              </model>
+            </properties>
+          </component>
+          <component id="c0f2c" class="javax.swing.JTextField" binding="Cant_text">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="71f06" class="javax.swing.JLabel" binding="Estado">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Estado"/>
+        </properties>
+      </component>
+      <component id="99b5f" class="javax.swing.JTextArea" binding="Estad_text">
+        <constraints>
+          <grid row="5" column="3" row-span="3" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="98ee5" class="javax.swing.JLabel" binding="Logo">
+        <constraints>
+          <grid row="0" column="7" row-span="3" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8558592"/>
+          <foreground color="-16118597"/>
+          <icon value="imagenes/conten.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2b755" class="javax.swing.JLabel" binding="Mensajes">
+        <constraints>
+          <grid row="8" column="3" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7944a" class="javax.swing.JLabel" binding="hub_Texto">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Indique el hub sobre el que desea trabajar."/>
+        </properties>
+      </component>
+      <component id="9da67" class="javax.swing.JRadioButton" binding="a1Hub">
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="865b2" class="javax.swing.JRadioButton" binding="a3Hub">
+        <constraints>
+          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="c43a1" class="javax.swing.JRadioButton" binding="a2Hub">
+        <constraints>
+          <grid row="10" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="2"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
