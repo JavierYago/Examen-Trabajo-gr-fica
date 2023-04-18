@@ -8,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
+
 public class DiseñoContenedores extends JFrame {
     private JLabel NumId;
     private JTextField NumIdtext;
