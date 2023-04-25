@@ -1,3 +1,4 @@
+//Javier yago Giménez
 package PaqC01;
 
 import javax.swing.*;
@@ -46,8 +47,10 @@ public class DiseñoContenedores extends JFrame {
     private JRadioButton a1Hub;
     private JRadioButton a2Hub;
     private JRadioButton a3Hub;
+    private JButton chequado;
 
     private int hubMostrar = 0;
+    private int puertomostrar = 0;
     Puerto p1;
 
 
@@ -308,6 +311,14 @@ public class DiseñoContenedores extends JFrame {
                 a2Hub.setSelected(false);
                 hubMostrar = 2;
                 Estad_text.setText(p1.toStringHUB(hubMostrar));
+            }
+        });
+        chequado.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Mensajes.setText("Mostrando datos del puerto.");
+                Chequeado newframe = new Chequeado(p1.toStringPuerto(puertomostrar, Integer.parseInt(ID_text.getText())));
+                newframe.setVisible(true);
             }
         });
     }
